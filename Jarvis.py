@@ -149,10 +149,10 @@ if __name__ == '__main__':
             print("My friends call me", assname)
 
         elif "who made you" in query or "who created you" in query:
-            speak("I have been created by Mohit, Aditya & Piyush.")
+            speak("I have been created by Piyush.")
 
         elif "who are you" in query:
-            speak("I am a virtual assistant created by Mohit, Aditya & Piyush")
+            speak("I am a virtual assistant created by Piyush")
 
         elif 'joke' in query:
             joke1 = pyjokes.get_joke()
